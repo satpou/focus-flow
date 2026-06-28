@@ -153,7 +153,7 @@ MIT License - bebas digunakan untuk personal atau commercial.
 
 ## 👤 Author
 
-**Satria**
+**Satria Rahmaddhani**
 - GitHub: [@satpou](https://github.com/satpou)
 
 ## 🙏 Acknowledgments
@@ -164,6 +164,6 @@ MIT License - bebas digunakan untuk personal atau commercial.
 
 ---
 
-**Live Demo**: [https://focus-flow.vercel.app](https://focus-flow.vercel.app) *(setelah deploy)*
+**Live Demo**: [https://focus-flow-k8t9.vercel.app/](https://focus-flow-k8t9.vercel.app/)
 
 Semoga FocusFlow membantu meningkatkan produktivitas kamu! 🚀
