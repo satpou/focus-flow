@@ -34,7 +34,7 @@ const FocusFlowPage = () => {
 
   // Timer logic
   useEffect(() => {
-    let interval = null;
+    let interval: NodeJS.Timeout | null = null;
 
     if (isActive && minutes >= 0) {
       interval = setInterval(() => {
@@ -56,7 +56,8 @@ const FocusFlowPage = () => {
       // Handle timer finished state completion if needed
     }
 
-    return () => clearInterval(interval); // Cleanup interval on component unmount or isActive change
+    return () => {
+  if (interval) clearInterval(interval); // Cleanup interval on component unmount or isActive change
   }, [isActive, minutes, seconds]);
 
   const formatTime = (time) => {
